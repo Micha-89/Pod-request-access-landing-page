@@ -1,0 +1,195 @@
+/* body and background image */
+
+body {
+    margin: 0;
+    height: 900px;
+    background-color: #121725;
+    background-image: url(assets/desktop/image-host.jpg);
+    background-repeat: no-repeat;
+    background-position: top 130px right;
+    background-size: 888px 640px;
+    font-family: 'Chivo', sans-serif;
+}
+
+/* logo image top */
+
+#websiteLogo {
+    width: 134.85px;
+    height: 56px;
+    margin: 102px 0 0 165px;
+}
+
+/* main section*/
+
+#mainInformationSection {
+    width: 723px;
+    height: 509px;
+    background-color: #121725;
+    margin: 103px 0 0 165px;
+
+}
+
+/* section information*/
+
+#mainInformationSection h1 {
+    text-transform: uppercase;
+    font-size: 52px;
+    line-height: 62px;
+    color: #54E6AF;
+    font-weight: 300;
+    font-style: normal;
+    padding: 88px 58px 24px 0;
+    margin: 0;
+}
+
+#mainInformationSection span {
+    color: white;
+}
+
+.textInfo {
+    font-size: 18px;
+    line-height: 28px;
+    color: #C2CBE5;
+    width: 445px;
+    margin: 0;
+    padding-bottom: 40px;
+    font-weight: 300;
+    font-style: normal;
+}
+
+/* section form*/
+
+.mailInputBox {
+    width: 427px;
+    height: 56px;
+    background-color: #2C344B;
+    border-radius: 28px;
+    position: relative;
+}
+
+.mailInputBox input {
+    width: 220px;
+    position: absolute;
+    left: 32px;
+    top: 14px;
+    font-family: Chivo;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    border: none;
+    background: transparent;
+    color: white;
+    outline: none;
+}
+
+::-webkit-input-placeholder { /* Edge */
+    color: white;
+    font-family: Chivo;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0px;
+    opacity: 0.5;
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: white;
+    font-family: Chivo;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0px;
+    opacity: 0.5;
+  }
+  
+  ::placeholder {
+      color: white;
+    font-family: Chivo;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0px;
+    opacity: 0.5;
+  }
+
+.mailInputBox button {
+    width: 162px;
+    height: 46px;
+    background-color: #54E6AF;
+    border: none;
+    border-radius: 28px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    color: #121725;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.mailInputBox button:hover {
+    background-color: #B3FFE2;
+    cursor: pointer;
+}
+
+#faultMessage {
+    margin: 0;
+    padding: 8px 0 42px 32px ;
+    font-family: Chivo;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 14px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #FB3E3E;
+}
+
+/* section links*/
+
+#linkWrapper img {
+    opacity: 0.65;
+}
+
+.linkImage1 {
+    width: 96px;
+    height: 29px;
+    margin-right: 40px;
+    text-decoration: none;
+}
+
+.linkImage2 {
+    width: 78px;
+    height: 29px;
+    margin-right: 41px;
+    text-decoration: none;
+}
+
+.linkImage3 {
+    width: 125px;
+    height: 18px;
+    margin-right: 27px;
+    text-decoration: none;
+}
+
+.linkImage4 {
+    width: 129px;
+    height: 26px;
+    text-decoration: none;
+}
+
+/* decoration image bottom right */
+
+#siteDecoration {
+    position: absolute;
+    right: 0;
+    top: 718px;
+    width: 232px;
+    height: 104px;
+}

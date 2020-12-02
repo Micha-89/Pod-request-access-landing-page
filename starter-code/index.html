@@ -3,17 +3,47 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Chivo:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  
   
   <title>Frontend Mentor | Pod request access landing page</title>
 </head>
 <body>
-  Publish your podcasts everywhere.
 
-  Upload your audio to Pod with a single click. We’ll then distribute your podcast to Spotify, 
-  Apple Podcasts, Google Podcasts, Pocket Casts and more!
+<img id="websiteLogo" src="assets/desktop/logo.svg" alt="Website logo">
 
-  Request access
+<section id="mainInformationSection">
+  <h1>Publish your podcasts<br><span id="endPartTitle">everywhere.</span></h1>
+  <p class="textInfo">Upload your audio to Pod with a single click. We’ll then distribute your podcast to Spotify, 
+    Apple Podcasts, Google Podcasts, Pocket Casts and more!</p>
+  <form id="emailSubmition" action="#">
+    <div class="mailInputBox">
+      <input type="email" name="" id="" placeholder="Email Address">
+      <button type="submit">Request access</button>
+    </div>
+    <p id="faultMessage">Oops! Please check your email</p>
+  </form>
+  <div id="linkWrapper">
+    <a class ="linkImage1" href="https://www.spotify.com/" target="_blank">
+      <img src="assets/desktop/spotify.svg" alt="Spotify logo">
+    </a>
+    <a class ="linkImage2" href="https://podcasts.apple.com/us/genre/podcasts/id26" target="_blank">
+      <img src="assets/desktop/apple-podcast.svg" alt="Apple Podcast logo">
+    </a>
+    <a class ="linkImage3" href="https://podcasts.google.com/" target="_blank">
+      <img src="assets/desktop/google-podcasts.svg" alt="Google Podcasts logo">
+    </a>
+    <a class ="linkImage4" href="https://www.pocketcasts.com/" target="_blank">
+      <img src="assets/desktop/pocket-casts.svg" alt="Pocket Casts logo">
+    </a>
+  </div>
+</section>
+
+<img id="siteDecoration" src="assets/desktop/bg-pattern-dots.svg" alt="Dot pattern decoration">
+
 </body>
+
 </html>
