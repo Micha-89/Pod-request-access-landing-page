@@ -2,7 +2,7 @@
 
 body {
     margin: 0;
-    height: 900px;
+    min-height: 900px;
     background-color: #121725;
     background-image: url(assets/desktop/image-host.jpg);
     background-repeat: no-repeat;
